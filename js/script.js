@@ -92,7 +92,7 @@ function jugar(){
             again.style.display = 'block';
         }
         //Se pierde el juego
-        if (intentos==0){
+        else if (intentos==0){
             terminar("<h2>PERDISTE! :'(</h2>");
             again.style.display = 'block';
         }
