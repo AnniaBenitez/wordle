@@ -10,6 +10,7 @@ let diccionario = ['ABETO','AVION', 'BACHE', 'BICHO', 'BUENO', 'CABRA',
                     'OPERA', 'PELEA', 'PERRO', 'PODER', 'RELOJ', 'SUCIO', 'SIETE',
                     'TABLA', 'TENIS', 'VERDE', 'VOLAR', 'YOGUR', 'ZORRO', 'ZURDO'];
 const palabra = diccionario[Math.floor(Math.random() * diccionario.length)];
+console.log(palabra);
 const confettiDiv = document.getElementById('confetti');
 input.focus;
 
@@ -51,7 +52,6 @@ function leerIntento(){
 
 function jugar(){
     //Aca ya tenemos la palabra ingresada por usuario
-    console.log(palabra);
     const INTENTO = leerIntento();    
     input.value = ''; 
     if(INTENTO.length === 5){
