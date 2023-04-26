@@ -51,6 +51,7 @@ function leerIntento(){
 
 function jugar(){
     //Aca ya tenemos la palabra ingresada por usuario
+    console.log(palabra);
     const INTENTO = leerIntento();    
     input.value = ''; 
     if(INTENTO.length === 5){
